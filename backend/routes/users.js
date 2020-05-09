@@ -1,9 +1,10 @@
 var express = require('express');
+var offers = require('../offers.json')
 var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.render(res.json(offers));
 });
 
 module.exports = router;
