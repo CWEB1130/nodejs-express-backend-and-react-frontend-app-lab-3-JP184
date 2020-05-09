@@ -13,7 +13,6 @@ You are going to build a simple web application that allows end-users to create 
 ### Step 2 - Configure and install Express
 1.  Run command **[npx express-generator backend]**
 	1.  This command scaffolds the application into a folder called backend.
-
        2.  Change directories into backend folder
        3. Install dependencies listed in package.json by running command [npm install]
        5.  Fix any dependencies by running command [npm audit fix]
